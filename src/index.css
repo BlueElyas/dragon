@@ -14,8 +14,8 @@ body {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5rem;
+  font-size: 14px;
+  line-height: 1.4rem;
 }
 
 #root {
@@ -34,4 +34,49 @@ body {
   /* header grad can only be used with background */
 }
 
-/* Typography */
+/* Typography for mobile */
+h1,
+h2 {
+  font-size: 2.285rem;
+  line-height: 2.857rem;
+}
+
+h3 {
+  font-size: 1.285rem;
+  line-height: 1.714rem;
+}
+
+h4 {
+  font-size: 1.142rem;
+  line-height: 1.714rem;
+}
+
+/* Font for tablets */
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.857rem;
+    line-height: 3.428rem;
+  }
+  h3 {
+    font-size: 1.174rem;
+    line-height: 2.571rem;
+  }
+  h4 {
+    font-size: 1.428rem;
+    line-height: 2rem;
+  }
+  p {
+    font-size: 1.142rem;
+    line-height: 1.714rem;
+  }
+}
+
+/* Font sizes for desktiop */
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 4.571rem;
+  }
+}
