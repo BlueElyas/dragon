@@ -1,0 +1,37 @@
+/*Pete's Magic Resets*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+#root {
+  height: 100%;
+}
+
+/*Colour variables for site*/
+:root {
+  --black: #1b1c22;
+  --dark-grey: #7d7d7d;
+  --mid-grey: #e7e7e7;
+  --light-grey: #f9f9f9;
+  --white: #ffffff;
+  --purple: #8900ff;
+  --header-grad: linear-gradient(0.25turn, #8900ff, #f50179);
+  /* header grad can only be used with background */
+}
+
+/* Typography */
