@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "ResultsCard.module.css"
+import styles from "./ResultsCard.module.css"
 
 function ResultsCard({ title, description }) {
   return (
