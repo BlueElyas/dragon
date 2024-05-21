@@ -1,0 +1,31 @@
+/* Wrapper for the entire question feature form */
+.questionFeatureWrapper form {
+  display: flex;
+  flex-direction: column;
+}
+/* When # of character is negative, turns text red.*/
+.isRed {
+  color: red;
+}
+/* hides reset button when no text */
+.doNotShowButton {
+  display: none;
+}
+/* displays reset button when text in box */
+.showButton {
+  display: block;
+}
+
+/* margin added to buttons */
+button {
+  margin: 0.3rem;
+}
+
+/* text input beautification */
+textarea {
+  margin: 0.3rem;
+  resize: none;
+  border-color: var(--purple);
+  background-color: var(--light-grey);
+  border-radius: 5px;
+}
