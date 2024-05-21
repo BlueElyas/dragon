@@ -1,0 +1,9 @@
+/* Wrapper for the entire question feature form */
+.questionFeatureWrapper form{
+    display:flex;
+    flex-direction: column;
+}
+/* When # of character is negative, turns text red.*/
+.isRed{
+    color:red;
+}
