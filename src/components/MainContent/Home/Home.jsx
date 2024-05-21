@@ -6,6 +6,7 @@ function Home() {
     <div>
       This is a homepage
       <NavLink to="about">about</NavLink>
+      <NavLink to="ask">Ask The Dragon</NavLink>
       <img
         style={{ width: "100px", display: "block" }}
         src="assets/dragon-napoleon-dynamite-instructor.png"
