@@ -2,8 +2,13 @@ import React, { useState } from "react"
 import styles from "./QuestionFeature.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSearch } from "@fortawesome/free-solid-svg-icons"
+import { useSelector, useDispatch } from "react-redux"
+import { fetchResults, setQuestion } from "./questionFeatureSlice"
 
 function QuestionFeature() {
+  const dispatch = useDispatch()
+  const selector = useSelector((state) => state.question.question)
+
   // for controlled input component
   const [inputQuestion, setInputQuestion] = useState("")
   //   allows control of button class name state
@@ -23,9 +28,15 @@ function QuestionFeature() {
     setInputQuestion("")
     setButtonClassName(styles.doNotShowButton)
   }
+  function handleSubmit(e) {
+    e.preventDefault() 
+    const queryParams = inputQuestion.split(" ").join("+")
+    dispatch(setQuestion(queryParams))
+    dispatch(fetchResults())
+  }
   return (
     <div className={styles.questionFeatureWrapper}>
-      <form>
+      <form onSubmit={handleSubmit}>
         <textarea
           onChange={handleChange}
           value={inputQuestion}

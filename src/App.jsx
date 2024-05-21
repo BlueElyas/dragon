@@ -5,10 +5,13 @@ import AboutPage from "./components/MainContent/AboutPage/AboutPage"
 import AboutApp from "./components/MainContent/AboutPage/AboutApp/AboutApp"
 import AboutTeam from "./components/MainContent/AboutPage/AboutTeam/AboutTeam"
 import AskPage from "./components/MainContent/AskPage/AskPage"
+import { store } from "./store"
+import { Provider } from "react-redux"
 
 function App() {
   return (
     <>
+    <Provider store={store}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Root />}>
@@ -21,6 +24,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+      </Provider>
     </>
   )
 }
