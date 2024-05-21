@@ -1,0 +1,15 @@
+.logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo img {
+  width: 70px;
+}
+
+.logo h3 {
+  font-weight: 200;
+  font-style: italic;
+}
