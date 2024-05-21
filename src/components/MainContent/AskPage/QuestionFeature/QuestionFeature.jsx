@@ -8,7 +8,7 @@ function QuestionFeature() {
   const [inputQuestion, setInputQuestion] = useState("")
   //   allows control of button class name state
   const [buttonClassName, setButtonClassName] = useState(styles.doNotShowButton)
-  let resetButtonClasses = `buttonInverted ${buttonClassName}`
+  let resetButtonClasses = `ButtonInverted ${buttonClassName}`
   // number of character remaining in textbox
   const charRemaining = 160 - inputQuestion.length
   // Allows control of input component to pass to stoe
@@ -35,7 +35,7 @@ function QuestionFeature() {
           required={true}
         />
 
-        <button type="submit" className="buttonPurple">
+        <button type="submit" className="ButtonPurple">
           Ask The Dragon
         </button>
         <button
