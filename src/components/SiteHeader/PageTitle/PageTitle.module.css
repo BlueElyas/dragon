@@ -1,0 +1,15 @@
+.pageTitle {
+  text-align: center;
+  margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+.pageTitle p {
+  margin-top: 20px;
+}

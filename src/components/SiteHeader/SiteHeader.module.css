@@ -1,0 +1,19 @@
+.header {
+  background: var(--header-grad);
+  color: var(--white);
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 600px;
+    display: grid;
+    align-items: start;
+  }
+}
+
+.logoNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

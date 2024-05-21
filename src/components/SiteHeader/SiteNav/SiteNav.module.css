@@ -1,0 +1,47 @@
+.nav {
+  display: none;
+  margin-top: 14px;
+  text-align: center;
+  background-color: #8900ff99;
+  border-radius: 5px;
+  padding: 5px 2px;
+}
+.nav.show {
+  display: block; /* Show the nav when toggled on mobile */
+}
+
+.ul {
+  list-style: none;
+}
+
+.menuTop {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: block;
+    position: static;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+  .menuTop {
+    display: none;
+  }
+  .ul {
+    display: flex;
+    gap: 15px;
+    font-size: larger;
+    align-items: center;
+    border-bottom: 2px solid #8900ff99;
+    padding-bottom: 1px;
+    color: var(--white);
+  }
+}
+
+.menuIcon {
+  cursor: pointer;
+}
