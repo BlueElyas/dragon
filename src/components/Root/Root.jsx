@@ -1,12 +1,12 @@
 import React from "react"
-import { Outlet } from "react-router"
-import SiteHeader from "../SiteHeader/SiteHeader"
+
+import MainContent from "../MainContent/MainContent"
 
 function Root() {
   return (
     <div>
-      <SiteHeader />
-      <Outlet />
+
+      <MainContent />
     </div>
   )
 }
