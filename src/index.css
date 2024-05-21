@@ -1,0 +1,121 @@
+/*Pete's Magic Resets*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.4rem;
+}
+
+#root {
+  height: 100%;
+}
+
+/*Colour variables for site*/
+:root {
+  --black: #1b1c22;
+  --dark-grey: #7d7d7d;
+  --mid-grey: #e7e7e7;
+  --light-grey: #f9f9f9;
+  --white: #ffffff;
+  --purple: #8900ff;
+  --header-grad: linear-gradient(0.25turn, #8900ff, #f50179);
+  /* header grad can only be used with background */
+}
+
+/* Typography for mobile */
+h1,
+h2 {
+  font-size: 2.285rem;
+  line-height: 2.857rem;
+}
+
+h3 {
+  font-size: 1.285rem;
+  line-height: 1.714rem;
+}
+
+h4 {
+  font-size: 1.142rem;
+  line-height: 1.714rem;
+}
+
+/* Font for tablets */
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.857rem;
+    line-height: 3.428rem;
+  }
+  h3 {
+    font-size: 1.174rem;
+    line-height: 2.571rem;
+  }
+  h4 {
+    font-size: 1.428rem;
+    line-height: 2rem;
+  }
+  p {
+    font-size: 1.142rem;
+    line-height: 1.714rem;
+  }
+}
+
+/* Font sizes for desktop */
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 4.571rem;
+  }
+}
+
+/* Button Designs */
+.ButtonPurple {
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 0.5rem 1.5rem;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid var(--light-grey);
+  border-radius: 5px;
+}
+
+.ButtonPurple:hover {
+  box-shadow: 0px 0px 5px black;
+  opacity: 0.7;
+  font-weight: 700;
+}
+
+.ButtonPurple:active {
+  opacity: 0.4;
+}
+
+.ButtonInverted {
+  background-color: var(--white);
+  color: var(--purple);
+  padding: 0.5rem 1.5rem;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid var(--mid-grey);
+  border-radius: 5px;
+}
+
+.ButtonInverted:hover {
+  box-shadow: 0px 0px 5px black;
+  opacity: 0.7;
+  font-weight: 700;
+}
+
+.ButtonInverted:active {
+  opacity: 0.4;
+}
