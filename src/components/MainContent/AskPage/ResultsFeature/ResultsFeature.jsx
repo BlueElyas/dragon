@@ -4,20 +4,21 @@ import { useSelector } from "react-redux"
 
 function ResultsComponent() {
   const results = useSelector((state) => state.question.results)
-  console.log(results)
 
-  return (
-    <div>
-      <h2>Results</h2>
-      {results.results.map((result) => (
-        <ResultsCard
-          title={result.title}
-          description={result.description}
-          key={result.title}
-        />
-      ))}
-    </div>
-  )
+  if (results.results) {
+    return (
+      <div>
+        <h2>Results</h2>
+        {results.results.map((result) => (
+          <ResultsCard
+            title={result.title}
+            description={result.description}
+            key={result.title}
+          />
+        ))}
+      </div>
+    )
+  }
 }
 
 export default ResultsComponent
