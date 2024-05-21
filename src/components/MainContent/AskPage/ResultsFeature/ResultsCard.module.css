@@ -1,0 +1,12 @@
+.card {
+  border: 1px solid var(--mid-grey);
+  /* MAY NEED CHANGING */
+  max-height: 10rem;
+  overflow: hidden;
+}
+
+@media only screens and (min-width: 1024px) {
+  .card {
+    padding-right: 15rem;
+  }
+}
