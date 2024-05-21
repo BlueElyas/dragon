@@ -1,0 +1,11 @@
+.mainContain {
+  background-color: var(--white);
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .mainContain {
+    max-width: 1000px;
+    box-shadow: 0px 0px 5px var(--mid-grey);
+  }
+}
