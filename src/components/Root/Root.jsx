@@ -1,10 +1,10 @@
 import React from "react"
-import { Outlet } from "react-router"
+import MainContent from "../MainContent/MainContent"
 
 function Root() {
   return (
     <div>
-      Root <Outlet />
+      <MainContent />
     </div>
   )
 }
