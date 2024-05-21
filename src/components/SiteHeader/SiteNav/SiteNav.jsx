@@ -46,7 +46,7 @@ function SiteNav() {
           </li>
           <li>
             <NavLink
-              to="question"
+              to="ask"
               style={({ isActive }) => ({
                 borderBottom: isActive ? "2px solid #8900ff" : "",
                 paddingBottom: isActive ? "2px" : "",

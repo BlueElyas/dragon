@@ -21,11 +21,9 @@ function PageTitle() {
       <div className={styles.pageTitle}>
         <h1>About the Dargon</h1>
         <p>Who we are, what we do, why we are, where we do</p>
-        Post an open-ended question here and see some suggestions from our
-        speciality trained AI...
       </div>
     )
-  } else if (pathname === "/question") {
+  } else if (pathname === "/ask") {
     return (
       <div className={styles.pageTitle}>
         <h1>Ask the Dargon</h1>
