@@ -1,1 +1,21 @@
+.aboutNav {
+  background-color: var(--purple);
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  text-align: center;
+}
 
+.container {
+  width: 90%;
+  background-color: var(--mid-grey);
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.inactive {
+  opacity: 50%;
+}
