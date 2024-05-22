@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.img {
+  border-radius: 40px;
+  height: auto;
+  max-width: 100%;
+}
+
+.title {
+  font-size: 1.8em;
+}
+
+.desc {
+  font-style: italic;
+  color: var(--dark-grey);
+}
+
+.price {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 80%;
+    margin: 0 auto; /* Centers the card within the grid column */
+  }
+}
