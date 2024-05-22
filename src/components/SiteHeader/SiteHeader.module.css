@@ -17,3 +17,10 @@
   align-items: center;
   justify-content: space-between;
 }
+
+/* Remove active black color from anchor tags */
+
+a:-webkit-any-link {
+  color: white;
+  text-decoration: none;
+}
