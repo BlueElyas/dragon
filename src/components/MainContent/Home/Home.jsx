@@ -16,7 +16,7 @@ function Home() {
             return the result pretending that we generated it ourselves.
           </p>
         </div>
-        <img src="assets/dargon2.png" className={styles.img} />
+        <img src="/assets/dargon2.png" className={styles.img} />
       </section>
 
       <hr className={styles.hr} />
