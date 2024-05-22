@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 90%;
+  margin: 0.3rem;
+  border-color: var(--purple);
+  background-color: var(--light-grey);
+  align-items: start;
+}
