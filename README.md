@@ -59,3 +59,5 @@ finalising / presentation
 ### [Sebastian Davies](https://github.com/Sebbybobbler)
 
 ### [Joanna Pickering](https://github.com/Jo-Pickering)
+
+![Dargon](https://github.com/technative-academy/dragon/blob/ae14e3694d0300f6a5999a273ea8da465b27e88b/public/assets/dargon2.png)
