@@ -4,7 +4,7 @@ An AI tool that utilizies a single-threaded non-blocking high-level programming 
 
 ## Table of Contents
 
-- [DargonAId](https://github.com/BlueElyas)
+- [DargonAI](https://github.com/BlueElyas)
 
   - [Description](#description)
   - [View Project](#view-project)
@@ -12,9 +12,9 @@ An AI tool that utilizies a single-threaded non-blocking high-level programming 
 
   - [License](#license)
   - [Contributors](#contributing)
-    - [Chloe Page](#chloe-page)
-    - [kamila wilczynska](#kamila-wilczynska)
-    - [Helder Balbino](#helder-balbino)
+    - [Elyas Faiq](#elyas-faiq)
+    - [Seb Davies](#seb-davies)
+    - [Joanna Pickering](#joanna-pickering)
 
 ## Description
 
