@@ -4,7 +4,7 @@ An AI tool that utilizies a single-threaded non-blocking high-level programming 
 
 ## Table of Contents
 
-- [DargonAI](https://github.com/BlueElyas)
+- [DargonAI](https://dargon-limited.netlify.app/)
 
   - [Description](#description)
   - [View Project](#view-project)
