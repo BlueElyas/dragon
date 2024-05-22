@@ -76,7 +76,7 @@ function AboutTeam() {
           </p>
           <br></br>
           <img
-            src="public\assets\seb.png"
+            src="/assets/seb.png"
             alt=""
             className={styles.mobileImg}
           />
