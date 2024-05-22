@@ -3,19 +3,32 @@
   font-family: "Roboto", sans-serif;
   width: 100%;
   text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0.75rem;
 }
 
 .container {
-  width: 90%;
-  background-color: var(--mid-grey);
+  width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.active {
-  font-weight: 700;
+  list-style-type: none;
+  color: var(--white);
+  margin: 0 0 3.571rem 0;
+  flex-direction: column;
 }
 
 .inactive {
   opacity: 50%;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .aboutNav {
+    font-size: 1.25em;
+  }
+
+  .container {
+    flex-direction: row;
+  }
 }

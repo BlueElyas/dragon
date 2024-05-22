@@ -5,7 +5,7 @@ function AboutTeam() {
     <>
       <div className={styles.wrapper}>
         <div className={styles.aboutTeamImage}>
-          <img src="assets/team-dagron.png" />
+          <img src="/assets/team-dagron.png" className={styles.img} />
         </div>
         <div className={styles.aboutTeamWrapper}>
           <div className={styles.aboutTeamLeft}>
@@ -44,6 +44,8 @@ function AboutTeam() {
             </p>
           </div>
         </div>
+
+        {/* Content for mobile width */}
         <div className={styles.aboutTeamSmall}>
           <p>
             Meet the extraordinary minds behind DagronAI. Three adventurers /
@@ -54,6 +56,7 @@ function AboutTeam() {
             power necessary for such a gargantuan feat.
           </p>
           <br></br>
+          <img src="/assets/elyas.png" alt="" className={styles.mobileImg} />
           <p>
             Meet Elyas, with one thousand years of experience under his belt. It
             was he who tamed the dragons senses before the team entered the
@@ -62,6 +65,7 @@ function AboutTeam() {
             throat.
           </p>
           <br></br>
+          <img src="/assets/jo.png" alt="" className={styles.mobileImg} />
           <p>
             Meet Jo, with one thousand years of experience under her belt. It
             was she who conjured flame to ultimately tame and placate the
@@ -71,6 +75,11 @@ function AboutTeam() {
             accuracy.
           </p>
           <br></br>
+          <img
+            src="public\assets\seb.png"
+            alt=""
+            className={styles.mobileImg}
+          />
           <p>
             Meet Seb, with one thousand years of experience under his belt. It
             was he who utilised the magical draconic glyph inscribed upon his

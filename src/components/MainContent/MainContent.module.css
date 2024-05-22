@@ -4,6 +4,7 @@
   border-top-right-radius: 35px;
   position: relative;
   top: -30px;
+  overflow: hidden;
 }
 
 @media (min-width: 1024px) {
