@@ -5,7 +5,7 @@ function AboutTeam() {
     <>
       <div className={styles.wrapper}>
         <div className={styles.aboutTeamImage}>
-          <img src="../../../../public/assets/team-dagron.png" />
+          <img src="assets/team-dagron.png" />
         </div>
         <div className={styles.aboutTeamWrapper}>
           <div className={styles.aboutTeamLeft}>
