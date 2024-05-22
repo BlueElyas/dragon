@@ -33,6 +33,16 @@ function PageTitle() {
         </p>
       </div>
     )
+  } else if (pathname === "/products") {
+    return (
+      <div className={styles.pageTitle}>
+        <h1>Buy the Dargon</h1>
+        <p>
+          We need to shift some of this stuff so we can continue to operate,
+          please help us
+        </p>
+      </div>
+    )
   }
 }
 
