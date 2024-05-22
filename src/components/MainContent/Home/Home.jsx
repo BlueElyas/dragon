@@ -37,7 +37,7 @@ function Home() {
             speciality trained AI
           </p>
           <button className={`ButtonInverted ${styles.button}`}>
-            <NavLink to="products" style={{ color: "var(--purple)" }}>
+            <NavLink to="ask" style={{ color: "var(--purple)" }}>
               Ask Dargon!
             </NavLink>
           </button>
