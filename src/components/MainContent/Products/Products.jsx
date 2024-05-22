@@ -1,14 +1,14 @@
 import React, { useState } from "react"
 import styles from "./Products.module.css"
 import ProductCard from "./ProductCard/ProductCard"
-
+import ProductsSearch from "./ProductsSearch/ProductsSearch"
 function Products() {
   const [input, setInput] = useState("")
 
   return (
     <main className={styles.productsContainer}>
       <section>
-        <p>Input here</p>
+        <ProductsSearch/>
       </section>
       <section style={styles.productsFound}>
         <p>6 products found</p>
