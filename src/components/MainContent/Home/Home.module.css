@@ -1,0 +1,63 @@
+.main {
+  color: var(--dark-grey);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.h3 {
+  color: var(--black);
+}
+
+.span {
+  color: var(--purple);
+  display: block;
+  margin-bottom: 15px;
+  font-size: larger;
+}
+
+.hr {
+  display: none;
+}
+
+.img {
+  width: 200px;
+  margin: 25px auto;
+  display: block;
+}
+
+.card {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.button {
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .hr {
+    display: block;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .img {
+    justify-self: end;
+    margin: 0;
+  }
+
+  .heroText {
+    width: 40%;
+  }
+
+  .cardSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin: 15px 0;
+  }
+}
