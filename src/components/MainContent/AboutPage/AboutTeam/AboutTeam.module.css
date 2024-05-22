@@ -1,0 +1,50 @@
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutTeamWrapper{
+    display:none;
+}
+
+.aboutTeamSmall{
+    display:block;
+    margin:10%;
+}
+
+img{
+    display:none;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    img{
+        display:flex;
+        margin:5%;
+    }
+    .aboutTeamWrapper{
+        display: flex;
+        flex-direction: row;
+        margin:5%;
+        align-items: start;
+        overflow-wrap: normal;
+    }
+    .aboutTeamLeft{
+        margin:5%;
+        width:50%;
+        height:100%;
+    }
+    .aboutTeamRight{
+        margin:5%;
+        width:50%;
+        height:100%;
+    }
+
+    .aboutTeamSmall{
+        display:none;
+    }
+    
+    
+}
