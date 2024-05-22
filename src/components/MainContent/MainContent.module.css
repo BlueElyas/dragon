@@ -1,11 +1,15 @@
 .mainContain {
   background-color: var(--white);
-  border-radius: 5px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  position: relative;
+  top: -30px;
 }
 
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .mainContain {
-    max-width: 1000px;
     box-shadow: 0px 0px 5px var(--mid-grey);
+    max-width: 1000px;
+    margin: 0 auto;
   }
 }
