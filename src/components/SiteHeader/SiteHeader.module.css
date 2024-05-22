@@ -5,20 +5,22 @@
   position: relative;
 }
 
-@media (min-width: 768px) {
-  .header {
-    height: 600px;
-    display: grid;
-    align-items: start;
-  }
-}
-
 .logoNav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+@media (min-width: 768px) {
+  .header {
+    height: 600px;
+    display: grid;
+    align-items: start;
+  }
+  .logoNav {
+    justify-content: center;
+  }
+}
 /* Remove active black color from anchor tags */
 
 a:-webkit-any-link {
