@@ -25,6 +25,9 @@ export const questionFeatureSlice = createSlice({
     setQuestion: (state, action) => {
       state.question = action.payload
     },
+    resetState: (state) => {
+      state.results = []
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -45,4 +48,4 @@ export const questionFeatureSlice = createSlice({
 })
 
 export const selectQuestion = (state) => state.question.question
-export const { setQuestion } = questionFeatureSlice.actions
+export const { setQuestion, resetState } = questionFeatureSlice.actions

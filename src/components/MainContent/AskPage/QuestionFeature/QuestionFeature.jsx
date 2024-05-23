@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import styles from "./QuestionFeature.module.css"
 import { useSelector, useDispatch } from "react-redux"
-import { fetchResults, setQuestion } from "./questionFeatureSlice"
+import { fetchResults, resetState, setQuestion } from "./questionFeatureSlice"
 
 function QuestionFeature() {
   const dispatch = useDispatch()
@@ -25,6 +25,7 @@ function QuestionFeature() {
   function handleReset() {
     setInputQuestion("")
     setButtonClassName(styles.doNotShowButton)
+    dispatch(resetState())
   }
   function handleSubmit(e) {
     e.preventDefault()
