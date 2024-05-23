@@ -1,15 +1,20 @@
 import React from "react"
+import styles from "./AboutApp.module.css"
 
 function AboutApp() {
   return (
-    <div>
-      <h1>About the Dagron App</h1>
-      <p>WE. LOVE. DAGRONS.</p>
+    <div className={styles.container}>
+      <p className={styles.tagline}>
+        <p>WE.</p>
+        <p>LOVE.</p>
+        <p>DAGRONS.</p>
+      </p>
+      <h2>About the Dagron App</h2>
       <p>
         The world would be a better place with dagrons in it, so we put our puny
         human brains together to create the closest thing we could - dagron AI!
       </p>
-      <h2>Dargon the Dagron Bot</h2>
+      <h3>Dargon the Dagron Bot</h3>
       <p>
         Dargon is our proof of concept. It's a LLM AI trained on ALL the
         possible dagron media we could find: from Game of Thrones to Pete's
@@ -22,7 +27,7 @@ function AboutApp() {
         want, so Dargon is free to use. Just try not to piss it off... Even as
         an AI, it's pretty temperamental.
       </p>
-      <h2>Dagron VR experiences</h2>
+      <h3>Dagron VR experiences</h3>
       <p>
         We've been developing Dargon's AI into full virtual reality experiences.
         Choose from a variety of dagron personalities and skins from a wide
