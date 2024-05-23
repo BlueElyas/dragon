@@ -1,12 +1,14 @@
 .card {
   border: 1px solid var(--mid-grey);
   /* MAY NEED CHANGING */
-  max-height: 10rem;
-  overflow: hidden;
+  max-height: 7rem;
+  overflow: scroll;
+  padding: 0.5rem;
+  box-shadow: 2px 2px 5px var(--mid-grey);
 }
 
-@media only screens and (min-width: 1024px) {
+@media (min-width: 768px) {
   .card {
-    padding-right: 15rem;
+    overflow: hidden;
   }
 }
