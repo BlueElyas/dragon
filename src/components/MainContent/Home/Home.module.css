@@ -5,7 +5,7 @@
   flex-direction: column;
 }
 
-.h3 {
+.h2 {
   color: var(--black);
 }
 
@@ -29,10 +29,6 @@
 .card {
   text-align: center;
   margin: 15px 0;
-}
-
-.button {
-  margin-top: 15px;
 }
 
 @media (min-width: 768px) {
