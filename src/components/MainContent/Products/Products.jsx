@@ -57,7 +57,7 @@ function Products() {
               key={experience.id}
               title={experience.title}
               desc={experience.description}
-              rating={experience.title}
+              rating={experience.rating}
               price={experience.price}
               image={experience.image}
             />
