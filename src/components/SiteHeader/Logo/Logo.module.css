@@ -13,3 +13,9 @@
   font-weight: 200;
   font-style: italic;
 }
+
+@media (min-width: 768px) {
+  .logo h3 {
+    font-size: 2rem;
+  }
+}

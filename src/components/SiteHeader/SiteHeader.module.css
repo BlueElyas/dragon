@@ -42,6 +42,7 @@
     height: 600px;
     display: grid;
     align-items: start;
+    font-size: 1.25rem;
   }
   .logoNav {
     justify-content: center;
