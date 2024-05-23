@@ -37,13 +37,17 @@ function Products() {
     )
   }
 
+  const sOrNoS = selector.length === 1 ? "" : "s"
+
   return (
     <main className={styles.productsContainer}>
       <section>
-        <ProductsSearch />
+        <ProductsSearch input={input} setInput={setInput} />
       </section>
       <section style={styles.productsFound}>
-        <p>6 products found</p>
+        <p>
+          {selector.length} product{sOrNoS} found
+        </p>
       </section>
       <section className={styles.productsList}>
         {selector.map((experience) => {
