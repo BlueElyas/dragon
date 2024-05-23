@@ -6,6 +6,7 @@
   font-weight: 700;
   cursor: pointer;
   padding: 0.75rem;
+  text-shadow: 2px 2px 5px black;
 }
 
 .container {
@@ -21,6 +22,11 @@
 .inactive {
   opacity: 50%;
   font-weight: 400;
+  text-shadow: 0 0 0 transparent;
+}
+
+.aboutTabs {
+  letter-spacing: 0.2rem;
 }
 
 @media (min-width: 768px) {

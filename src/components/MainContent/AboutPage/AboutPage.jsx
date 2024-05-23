@@ -16,7 +16,7 @@ function AboutPage() {
             }`}
             onClick={() => setShowTab("team")}
           >
-            Team
+            <h2 className={styles.aboutTabs}>Team</h2>
           </li>
           <li
             className={`${styles.aboutNav} ${
@@ -24,7 +24,7 @@ function AboutPage() {
             }`}
             onClick={() => setShowTab("app")}
           >
-            App
+            <h2 className={styles.aboutTabs}>App</h2>
           </li>
         </ul>
       </nav>
