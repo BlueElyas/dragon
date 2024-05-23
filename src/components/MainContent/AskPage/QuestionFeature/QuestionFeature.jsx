@@ -1,9 +1,7 @@
 import React, { useState } from "react"
 import styles from "./QuestionFeature.module.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faSearch } from "@fortawesome/free-solid-svg-icons"
 import { useSelector, useDispatch } from "react-redux"
-import { fetchResults, setQuestion } from "./questionFeatureSlice"
+import { fetchResults, resetState, setQuestion } from "./questionFeatureSlice"
 
 function QuestionFeature() {
   const dispatch = useDispatch()
@@ -27,13 +25,20 @@ function QuestionFeature() {
   function handleReset() {
     setInputQuestion("")
     setButtonClassName(styles.doNotShowButton)
+    dispatch(resetState())
   }
   function handleSubmit(e) {
-    e.preventDefault() 
+    e.preventDefault()
     const queryParams = inputQuestion.split(" ").join("+")
     dispatch(setQuestion(queryParams))
     dispatch(fetchResults())
   }
+
+  const sOrNoS = charRemaining === 1 ? "" : "s"
+
+  const disableButton =
+    charRemaining < 0 ? true : charRemaining === 160 ? true : false
+
   return (
     <div className={styles.questionFeatureWrapper}>
       <form onSubmit={handleSubmit}>
@@ -42,11 +47,17 @@ function QuestionFeature() {
           value={inputQuestion}
           name="questionInput"
           type="text"
-          placeholder="... Use an example"
+          placeholder="Dare to ask..."
           required={true}
+          rows={3}
+          className={styles.questionBox}
         />
 
-        <button type="submit" className="ButtonPurple">
+        <button
+          type="submit"
+          className={`ButtonPurple ${disableButton ? styles.greyedOut : ""}`}
+          disabled={disableButton}
+        >
           Ask The Dragon
         </button>
         <button
@@ -54,18 +65,16 @@ function QuestionFeature() {
           onClick={handleReset}
           className={resetButtonClasses}
         >
-          Ask A New Question
+          Clear My Question
         </button>
       </form>
-      <p>
-        <i>
-          {charRemaining < 0 ? (
-            <span className={styles.isRed}>{charRemaining} </span>
-          ) : (
-            <span>{charRemaining} </span>
-          )}
-          characters remaining
-        </i>
+      <p className={styles.charRemainingContainer}>
+        {charRemaining < 0 ? (
+          <span className={styles.isRed}>{charRemaining} </span>
+        ) : (
+          <span>{charRemaining} </span>
+        )}
+        character{sOrNoS} remaining
       </p>
     </div>
   )

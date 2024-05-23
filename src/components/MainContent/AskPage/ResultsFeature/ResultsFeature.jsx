@@ -3,6 +3,7 @@ import ResultsCard from "./ResultsCard"
 import { useSelector } from "react-redux"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDragon } from "@fortawesome/free-solid-svg-icons"
+import styles from "./ResultsFeature.module.css"
 
 function ResultsComponent() {
   const results = useSelector((state) => state.question.results)
@@ -10,7 +11,12 @@ function ResultsComponent() {
   const hasError = useSelector((state) => state.question.hasError)
 
   if (isLoading) {
-    return <FontAwesomeIcon icon={faDragon} className="fa-2xl" />
+    return (
+      <>
+        <FontAwesomeIcon icon={faDragon} className="fa-2xl" />
+        <p>Loading...</p>
+      </>
+    )
   }
 
   if (hasError) {
@@ -31,8 +37,8 @@ function ResultsComponent() {
 
   if (results.results) {
     return (
-      <div>
-        <h2>Results</h2>
+      <div className={styles.replyContainer}>
+        <h2 className={styles.replyTitle}>Replies</h2>
         {results.results.map((result) => (
           <ResultsCard
             title={result.title}

@@ -1,0 +1,10 @@
+.replyContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0rem 3rem;
+}
+
+.replyTitle {
+  margin-bottom: 1rem;
+}

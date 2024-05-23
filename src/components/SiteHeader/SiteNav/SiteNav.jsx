@@ -29,6 +29,7 @@ function SiteNav() {
                 borderBottom: isActive ? "2px solid #8900ff" : "",
                 paddingBottom: isActive ? "2px" : "",
               })}
+              onClick={() => setShowNav(false)}
             >
               Home
             </NavLink>
@@ -40,6 +41,7 @@ function SiteNav() {
                 borderBottom: isActive ? "2px solid #8900ff" : "",
                 paddingBottom: isActive ? "2px" : "",
               })}
+              onClick={() => setShowNav(false)}
             >
               About
             </NavLink>
@@ -51,6 +53,7 @@ function SiteNav() {
                 borderBottom: isActive ? "2px solid #8900ff" : "",
                 paddingBottom: isActive ? "2px" : "",
               })}
+              onClick={() => setShowNav(false)}
             >
               Ask
             </NavLink>
@@ -62,6 +65,7 @@ function SiteNav() {
                 borderBottom: isActive ? "2px solid #8900ff" : "",
                 paddingBottom: isActive ? "2px" : "",
               })}
+              onClick={() => setShowNav(false)}
             >
               Shop
             </NavLink>

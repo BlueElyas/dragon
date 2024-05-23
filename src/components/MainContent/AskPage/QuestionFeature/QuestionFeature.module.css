@@ -1,3 +1,7 @@
+.questionFeatureWrapper {
+  width: 80%;
+  margin: 0 auto;
+}
 /* Wrapper for the entire question feature form */
 .questionFeatureWrapper form {
   display: flex;
@@ -16,16 +20,34 @@
   display: block;
 }
 
-/* margin added to buttons */
-button {
-  margin: 0.3rem;
+/* When button is greyed out */
+
+.greyedOut {
+  opacity: 0.5;
 }
 
 /* text input beautification */
-textarea {
+.questionBox {
   margin: 0.3rem;
   resize: none;
   border-color: var(--purple);
-  background-color: var(--light-grey);
+  background-color: var(--mid-grey);
   border-radius: 5px;
+}
+
+.questionBox::placeholder {
+  font-family: "Reddit Sans";
+  font-size: 1rem;
+  padding: 0.2rem;
+}
+
+.charRemainingContainer {
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .questionFeatureWrapper {
+    width: 50%;
+  }
 }

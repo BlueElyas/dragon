@@ -2,9 +2,10 @@
   display: none;
   margin-top: 14px;
   text-align: center;
-  background-color: #8900ff99;
+  background-color: #8900ff;
   border-radius: 5px;
-  padding: 5px 2px;
+  padding: 15px;
+  position: absolute;
 }
 .nav.show {
   display: block; /* Show the nav when toggled on mobile */

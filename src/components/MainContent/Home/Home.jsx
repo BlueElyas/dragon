@@ -7,10 +7,10 @@ function Home() {
     <main className={styles.main}>
       <section className={styles.hero}>
         <div className={styles.heroText}>
-          <h3 className={styles.h3}>
+          <h2 className={styles.h2}>
             We do AI
             <span className={styles.span}>(via ChatGPT)</span>
-          </h3>
+          </h2>
           <p>
             Ask us a question, we'll secretly pass it on to ChatGPT and will
             return the result pretending that we generated it ourselves.
@@ -27,7 +27,7 @@ function Home() {
             Post an open-ended question and see some suggestions from our
             speciality trained AI
           </p>
-          <button className={`ButtonPurple ${styles.button}`}>
+          <button className="ButtonPurple">
             <NavLink to="ask">Ask Dargon!</NavLink>
           </button>
         </div>
@@ -36,7 +36,7 @@ function Home() {
             Post an open-ended question and see some suggestions from our
             speciality trained AI
           </p>
-          <button className={`ButtonInverted ${styles.button}`}>
+          <button className="ButtonInverted">
             <NavLink to="ask" style={{ color: "var(--purple)" }}>
               Ask Dargon!
             </NavLink>
