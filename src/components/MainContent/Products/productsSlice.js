@@ -11,7 +11,6 @@ export const fetchExperiences = createAsyncThunk(
       }
     )
     const data = await response.json()
-    console.log(data)
     return data
   }
 )

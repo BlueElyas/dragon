@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import styles from "./Products.module.css"
 import ProductCard from "./ProductCard/ProductCard"
 import ProductsSearch from "./ProductsSearch/ProductsSearch"
@@ -6,7 +6,6 @@ import { fetchExperiences } from "./productsSlice"
 import { useDispatch, useSelector } from "react-redux"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDragon } from "@fortawesome/free-solid-svg-icons"
-import { setExperiences } from "./productsSlice"
 
 function Products() {
   const [input, setInput] = useState("")
@@ -14,14 +13,10 @@ function Products() {
   const selector = useSelector((state) => state.dragonStore.dragonExperiences)
   const isLoading = useSelector((state) => state.dragonStore.isLoading)
   const hasError = useSelector((state) => state.dragonStore.hasError)
-  console.log(isLoading)
-  console.log(hasError)
-  console.log(selector)
 
   useEffect(() => {
     dispatch(fetchExperiences())
   }, [dispatch])
-  console.log(selector)
   if (isLoading) {
     return <FontAwesomeIcon icon={faDragon} className="fa-2xl" />
   }
@@ -57,7 +52,7 @@ function Products() {
               key={experience.id}
               title={experience.title}
               desc={experience.description}
-              rating={experience.rating}
+              stars={experience.stars}
               price={experience.price}
               image={experience.image}
             />
