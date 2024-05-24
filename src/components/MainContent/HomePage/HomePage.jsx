@@ -15,7 +15,7 @@ function Home() {
             return the result pretending that we generated it ourselves.
           </p>
         </div>
-        <img src="public\media\images\products\dragon\seb-bro-dagron.png" className={styles.img} alt="Japanese traditional style drawing of a dragon, eagle and snake battle royale" />
+        <img src="\media\images\products\dragon\seb-bro-dagron.png" className={styles.img} alt="Japanese traditional style drawing of a dragon, eagle and snake battle royale" />
       </section>
 
       <hr className={styles.hr} />
@@ -37,7 +37,7 @@ function Home() {
             speciality trained AI
           </p>
           <br />
-          <NavLink to="shop" className="ButtonInverted">
+          <NavLink to="products" className="ButtonInverted">
             Spend your Gold!
           </NavLink>
         </div>
