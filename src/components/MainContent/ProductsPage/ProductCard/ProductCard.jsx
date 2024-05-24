@@ -3,6 +3,8 @@ import styles from "./ProductCard.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faStar } from "@fortawesome/free-solid-svg-icons"
 import { faStar as faRegular } from "@fortawesome/free-regular-svg-icons"
+
+
 function ProductCard({ image, title, desc, stars, price }) {
   function setRatingCompiler(stars) {
     const emptyStars = 5 - stars

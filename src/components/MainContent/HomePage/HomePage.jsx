@@ -1,4 +1,3 @@
-import React from "react"
 import styles from "./HomePage.module.css"
 import { NavLink } from "react-router-dom"
 

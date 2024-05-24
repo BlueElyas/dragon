@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import styles from "./AboutPage.module.css"
 import AboutTeam from "./AboutTeam/AboutTeam"
 import AboutApp from "./AboutApp/AboutApp"
