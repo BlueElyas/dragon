@@ -1,4 +1,3 @@
-import { useState } from "react"
 import styles from "./ProductCard.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faStar } from "@fortawesome/free-solid-svg-icons"
