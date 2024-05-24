@@ -5,7 +5,7 @@ function AboutTeam() {
     <>
       <div className={styles.wrapper}>
         <div className={styles.aboutTeamImage}>
-          <img src="/assets/team-dagron.png" className={styles.img} />
+          <img src="/assets/team-dagron.png" className={styles.img} alt="Three images of the team: Elyas, Seb and Jo." />
         </div>
         <div className={styles.aboutTeamWrapper}>
           <div className={styles.aboutTeamLeft}>
@@ -59,7 +59,7 @@ function AboutTeam() {
             such a gargantuan feat.
           </p>
           <br></br>
-          <img src="/assets/elyas.png" alt="" className={styles.mobileImg} />
+          <img src="/assets/elyas.png" className={styles.mobileImg} alt="Elyas smiling sat on a train." />
           <p>
             <span className={styles.bible}>Meet Elyas</span>, with one thousand
             years of experience under his belt. It was he who tamed the dragons
@@ -68,7 +68,7 @@ function AboutTeam() {
             dragon, exposing the weakest point, the throat.
           </p>
           <br></br>
-          <img src="/assets/jo.png" alt="" className={styles.mobileImg} />
+          <img src="/assets/jo.png" className={styles.mobileImg} alt="Jo spinning fire in field."  />
           <p>
             <span className={styles.bible}>Meet Jo</span>, with one thousand
             years of experience under her belt. It was she who conjured flame to
@@ -78,7 +78,7 @@ function AboutTeam() {
             aim and fires, with extreme accuracy.
           </p>
           <br></br>
-          <img src="/assets/seb.png" alt="" className={styles.mobileImg} />
+          <img src="/assets/seb.png" className={styles.mobileImg} alt="Seb's forearm dragon tattoo." />
           <p>
             <span className={styles.bible}>Meet Seb</span>, with one thousand
             years of experience under his belt. It was he who utilised the

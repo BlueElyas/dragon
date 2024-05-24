@@ -1,22 +1,26 @@
 .productsContainer {
-  padding: 25px;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 1rem;
 }
 
 .productsList {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 35px;
+  gap: 2rem;
+}
+
+.loading {
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .productsList {
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    align-items: start;
   }
   .productsContainer {
-    padding: 50px;
+    padding: 3rem;
   }
 }

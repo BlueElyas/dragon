@@ -96,11 +96,13 @@ h6 {
   background-color: var(--purple);
   color: var(--white);
   padding: 0.5rem 1.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Reddit Sans", sans-serif;
   border: 1px solid var(--light-grey);
   border-radius: 5px;
   margin-top: 1rem;
   font-size: 1.25rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .ButtonPurple:hover {
@@ -117,11 +119,13 @@ h6 {
   background-color: var(--white);
   color: var(--purple);
   padding: 0.5rem 1.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Reddit Sans", sans-serif;
   border: 1px solid var(--mid-grey);
   border-radius: 5px;
   margin-top: 1rem;
   font-size: 1.25rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .ButtonInverted:hover {

@@ -21,9 +21,10 @@
 }
 
 .img {
-  width: 200px;
   margin: 25px auto;
   display: block;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .card {
@@ -42,8 +43,11 @@
     margin: 20px 0;
   }
   .img {
-    justify-self: end;
+    align-self: center;
     margin: 0;
+    height: 100%;
+    width: 55%;
+    object-fit: contain;
   }
 
   .heroText {

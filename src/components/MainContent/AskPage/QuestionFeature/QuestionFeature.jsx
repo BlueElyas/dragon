@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import styles from "./QuestionFeature.module.css"
 import { useSelector, useDispatch } from "react-redux"
 import { fetchResults, resetState, setQuestion } from "./questionFeatureSlice"

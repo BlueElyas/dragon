@@ -1,5 +1,4 @@
-import React from "react"
-import styles from "./Home.module.css"
+import styles from "./HomePage.module.css"
 import { NavLink } from "react-router-dom"
 
 function Home() {
@@ -16,7 +15,7 @@ function Home() {
             return the result pretending that we generated it ourselves.
           </p>
         </div>
-        <img src="/assets/dargon2.png" className={styles.img} />
+        <img src="public\media\images\products\dragon\seb-bro-dagron.png" className={styles.img} alt="Japanese traditional style drawing of a dragon, eagle and snake battle royale" />
       </section>
 
       <hr className={styles.hr} />
@@ -27,20 +26,20 @@ function Home() {
             Post an open-ended question and see some suggestions from our
             speciality trained AI
           </p>
-          <button className="ButtonPurple">
-            <NavLink to="ask">Ask Dargon!</NavLink>
-          </button>
+          <br />
+          <NavLink to="ask" className="ButtonPurple">
+            Ask Dargon!
+          </NavLink>
         </div>
         <div className={styles.card}>
           <p>
             Post an open-ended question and see some suggestions from our
             speciality trained AI
           </p>
-          <button className="ButtonInverted">
-            <NavLink to="ask" style={{ color: "var(--purple)" }}>
-              Ask Dargon!
-            </NavLink>
-          </button>
+          <br />
+          <NavLink to="shop" className="ButtonInverted">
+            Spend your Gold!
+          </NavLink>
         </div>
       </section>
     </main>

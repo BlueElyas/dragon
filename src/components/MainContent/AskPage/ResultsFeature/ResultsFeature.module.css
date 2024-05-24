@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 0.5rem;
   padding: 0rem 3rem;
+  min-width: 80%;
 }
 
 .replyTitle {

@@ -25,9 +25,10 @@ function SiteNav() {
           <li>
             <NavLink
               to="/"
+              className={styles.navLink}
               style={({ isActive }) => ({
-                borderBottom: isActive ? "2px solid #8900ff" : "",
-                paddingBottom: isActive ? "2px" : "",
+                borderBottom: isActive ? "4px solid #8900ff" : "",
+                fontWeight: isActive ? 700 : "",
               })}
               onClick={() => setShowNav(false)}
             >
@@ -37,9 +38,10 @@ function SiteNav() {
           <li>
             <NavLink
               to="about"
+              className={styles.navLink}
               style={({ isActive }) => ({
-                borderBottom: isActive ? "2px solid #8900ff" : "",
-                paddingBottom: isActive ? "2px" : "",
+                borderBottom: isActive ? "4px solid #8900ff" : "",
+                fontWeight: isActive ? 700 : "",
               })}
               onClick={() => setShowNav(false)}
             >
@@ -49,9 +51,10 @@ function SiteNav() {
           <li>
             <NavLink
               to="ask"
+              className={styles.navLink}
               style={({ isActive }) => ({
-                borderBottom: isActive ? "2px solid #8900ff" : "",
-                paddingBottom: isActive ? "2px" : "",
+                borderBottom: isActive ? "4px solid #8900ff" : "",
+                fontWeight: isActive ? 700 : "",
               })}
               onClick={() => setShowNav(false)}
             >
@@ -61,9 +64,10 @@ function SiteNav() {
           <li>
             <NavLink
               to="products"
+              className={styles.navLink}
               style={({ isActive }) => ({
-                borderBottom: isActive ? "2px solid #8900ff" : "",
-                paddingBottom: isActive ? "2px" : "",
+                borderBottom: isActive ? "4px solid #8900ff" : "",
+                fontWeight: isActive ? 700 : "",
               })}
               onClick={() => setShowNav(false)}
             >

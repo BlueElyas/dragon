@@ -1,4 +1,3 @@
-import React from "react"
 import styles from "./AskPage.module.css"
 import QuestionFeature from "./QuestionFeature/QuestionFeature"
 import ResultsComponent from "./ResultsFeature/ResultsFeature"

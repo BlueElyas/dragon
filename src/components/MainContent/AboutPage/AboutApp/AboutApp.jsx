@@ -1,4 +1,3 @@
-import React from "react"
 import styles from "./AboutApp.module.css"
 
 function AboutApp() {
@@ -9,12 +8,11 @@ function AboutApp() {
         <p>LOVE.</p>
         <p>DAGRONS.</p>
       </p>
-      <h2>About the Dagron App</h2>
       <p>
         The world would be a better place with dagrons in it, so we put our puny
         human brains together to create the closest thing we could - dagron AI!
       </p>
-      <h3>Dargon the Dagron Bot</h3>
+      <h2 className={styles.mobileHeader}>Dargon the Dagron Bot</h2>
       <p>
         Dargon is our proof of concept. It's a LLM AI trained on ALL the
         possible dagron media we could find: from Game of Thrones to Pete's
@@ -27,7 +25,7 @@ function AboutApp() {
         want, so Dargon is free to use. Just try not to piss it off... Even as
         an AI, it's pretty temperamental.
       </p>
-      <h3>Dagron VR experiences</h3>
+      <h2 className={styles.mobileHeader}>Dagron VR experiences</h2>
       <p>
         We've been developing Dargon's AI into full virtual reality experiences.
         Choose from a variety of dagron personalities and skins from a wide

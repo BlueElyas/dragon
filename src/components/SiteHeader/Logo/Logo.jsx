@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom"
 function Logo() {
   return (
     <div className={styles.logo}>
-      <a href="/">
+      <NavLink to="/" className={styles.navLink}>
         <img src="assets/dragon-logo.png" alt="cartoonish dragon logo" />
         <h3>Ask DargonAI </h3>
-      </a>
+      </NavLink>
     </div>
   )
 }

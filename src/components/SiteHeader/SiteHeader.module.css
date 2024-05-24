@@ -50,7 +50,7 @@
 }
 /* Remove active black color from anchor tags */
 
-a:-webkit-any-link {
+/*a:-webkit-any-link {
   color: white;
   text-decoration: none;
-}
+}*/

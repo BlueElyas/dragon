@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import styles from "./AboutPage.module.css"
 import AboutTeam from "./AboutTeam/AboutTeam"
 import AboutApp from "./AboutApp/AboutApp"
@@ -24,7 +24,7 @@ function AboutPage() {
             }`}
             onClick={() => setShowTab("app")}
           >
-            <h2 className={styles.aboutTabs}>App</h2>
+            <h2 className={styles.aboutTabs}>AI</h2>
           </li>
         </ul>
       </nav>
