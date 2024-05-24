@@ -11,6 +11,10 @@
   gap: 2rem;
 }
 
+.loading {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .productsList {
     grid-template-columns: 1fr 1fr;

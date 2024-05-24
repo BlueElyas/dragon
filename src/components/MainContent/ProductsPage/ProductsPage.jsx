@@ -20,8 +20,16 @@ function Products() {
   if (isLoading) {
     return (
       <>
-        <FontAwesomeIcon icon={faDragon} className="fa-2xl" />
-        <p>Loading...</p>
+        <section>
+          <ProductsSearch input={input} setInput={setInput} />
+        </section>
+        <section style={styles.productsFound}>
+          <p>Finding the perfect products for you...</p>
+        </section>
+        <div className={styles.loading}>
+          <FontAwesomeIcon icon={faDragon} className="fa-2xl" />
+          <p>Loading...</p>
+        </div>
       </>
     )
   }
@@ -29,12 +37,18 @@ function Products() {
   if (hasError) {
     return (
       <>
+        <section>
+          <ProductsSearch input={input} setInput={setInput} />
+        </section>
+        <section style={styles.productsFound}>
+          <p>Who ate all the products?</p>
+        </section>
         <div>
-          <h4>No Arkenstone for you.</h4>
-          <p>Ask a new question, fool.</p>
+          <h4>You broke it...</h4>
+          <p>I hope you're ready for a can of whoop ass.</p>
           <img
             src="assets/dragon-napoleon-dynamite-instructor.png"
-            alt=""
+            alt="Cool looking martial arts instructor, looking menacingly over his shoulder."
             style={{ width: "100px" }}
           />
         </div>
