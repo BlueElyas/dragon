@@ -18,7 +18,12 @@ function Products() {
     dispatch(fetchExperiences())
   }, [dispatch])
   if (isLoading) {
-    return <FontAwesomeIcon icon={faDragon} className="fa-2xl" />
+    return (
+      <>
+        <FontAwesomeIcon icon={faDragon} className="fa-2xl" />
+        <p>Loading...</p>
+      </>
+    )
   }
 
   if (hasError) {

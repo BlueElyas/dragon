@@ -17,6 +17,11 @@
   font-style: italic;
 }
 
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .logo h3 {
     font-size: 2rem;

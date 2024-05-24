@@ -4,9 +4,24 @@
 }
 
 .input {
-  width: 90%;
-  margin: 0.3rem;
   border-color: var(--purple);
   background-color: var(--light-grey);
-  align-items: start;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  font-family: "Reddit Sans", sans-serif;
+  border: 1px solid var(--purple);
+  font-size: 1.25rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1rem;
+  }
+  .input {
+    flex: 1;
+    margin-top: 1rem;
+  }
 }

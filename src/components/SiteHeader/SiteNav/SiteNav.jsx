@@ -25,6 +25,7 @@ function SiteNav() {
           <li>
             <NavLink
               to="/"
+              className={styles.navLink}
               style={({ isActive }) => ({
                 borderBottom: isActive ? "2px solid #8900ff" : "",
                 paddingBottom: isActive ? "2px" : "",
@@ -37,6 +38,7 @@ function SiteNav() {
           <li>
             <NavLink
               to="about"
+              className={styles.navLink}
               style={({ isActive }) => ({
                 borderBottom: isActive ? "2px solid #8900ff" : "",
                 paddingBottom: isActive ? "2px" : "",
@@ -49,6 +51,7 @@ function SiteNav() {
           <li>
             <NavLink
               to="ask"
+              className={styles.navLink}
               style={({ isActive }) => ({
                 borderBottom: isActive ? "2px solid #8900ff" : "",
                 paddingBottom: isActive ? "2px" : "",
@@ -61,6 +64,7 @@ function SiteNav() {
           <li>
             <NavLink
               to="products"
+              className={styles.navLink}
               style={({ isActive }) => ({
                 borderBottom: isActive ? "2px solid #8900ff" : "",
                 paddingBottom: isActive ? "2px" : "",

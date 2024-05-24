@@ -11,6 +11,11 @@
   display: block; /* Show the nav when toggled on mobile */
 }
 
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
 .ul {
   list-style: none;
 }
