@@ -24,13 +24,13 @@ Dargon is our proof of concept. It's a LLM AI trained on ALL the possible dagron
 
 We feel like everyone should be able to chat to a dagron whenever they want, so Dargon is free to use. Just try not to piss it off... Even as an AI, it's pretty temperamental.
 
-Big shout out to sebs brother for providing us with a really cool image!!!
+Big shout out to Seb's brother for providing us with a really cool image!!!
 
 (Here is the link)[https://www.instagram.com/jshdavies/?hl=en-gb]
 
 Here is the image:
 
-![Sebs brothers cool drawing](https://github.com/technative-academy/dragon/blob/main/public/media/images/products/dragon/seb-bro-dagron.png)
+![Seb's brothers cool drawing](https://github.com/technative-academy/dragon/blob/main/public/media/images/products/dragon/seb-bro-dagron.png)
 
 ## View Project
 
@@ -123,7 +123,7 @@ Here is the image:
 
 ## References
 
-### SEBS BROTHER!!: https://www.instagram.com/jshdavies/?hl=en-gb
+### SEB'S BROTHER!!: https://www.instagram.com/jshdavies/?hl=en-gb
 
 ### Toothless: https://www.pinterest.co.uk/pin/332703491194482354/
 
