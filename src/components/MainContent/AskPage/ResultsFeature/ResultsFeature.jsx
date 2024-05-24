@@ -1,14 +1,19 @@
 import ResultsCard from "./ResultsCard"
-import { useSelector } from "react-redux"
+import { useEffect } from "react"
+import { useSelector, useDispatch } from "react-redux"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDragon } from "@fortawesome/free-solid-svg-icons"
 import styles from "./ResultsFeature.module.css"
+import { resetState } from "../QuestionFeature/questionFeatureSlice"
 
 function ResultsComponent() {
+  const dispatch = useDispatch()
   const results = useSelector((state) => state.question.results)
   const isLoading = useSelector((state) => state.question.isLoading)
   const hasError = useSelector((state) => state.question.hasError)
-
+  useEffect(() => {
+    dispatch(resetState())
+  }, [dispatch])
   if (isLoading) {
     return (
       <>
