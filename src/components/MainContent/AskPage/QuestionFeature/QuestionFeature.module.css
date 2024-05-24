@@ -24,6 +24,8 @@
 
 .greyedOut {
   opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 /* text input beautification */
@@ -33,12 +35,12 @@
   border-color: var(--purple);
   background-color: var(--mid-grey);
   border-radius: 5px;
+  padding: 1rem;
 }
 
 .questionBox::placeholder {
   font-family: "Reddit Sans";
   font-size: 1rem;
-  padding: 0.2rem;
 }
 
 .charRemainingContainer {

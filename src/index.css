@@ -101,6 +101,8 @@ h6 {
   border-radius: 5px;
   margin-top: 1rem;
   font-size: 1.25rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .ButtonPurple:hover {
@@ -122,6 +124,8 @@ h6 {
   border-radius: 5px;
   margin-top: 1rem;
   font-size: 1.25rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .ButtonInverted:hover {
