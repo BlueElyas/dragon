@@ -24,7 +24,7 @@ function AboutPage() {
             }`}
             onClick={() => setShowTab("app")}
           >
-            <h2 className={styles.aboutTabs}>App</h2>
+            <h2 className={styles.aboutTabs}>AI</h2>
           </li>
         </ul>
       </nav>

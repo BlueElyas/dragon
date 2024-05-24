@@ -6,7 +6,7 @@
   font-weight: 700;
   cursor: pointer;
   padding: 0.75rem;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 2px var(--dark-grey);
 }
 
 .container {
