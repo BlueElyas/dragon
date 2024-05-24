@@ -7,12 +7,11 @@ function Home() {
       <section className={styles.hero}>
         <div className={styles.heroText}>
           <h2 className={styles.h2}>
-            We do AI
-            <span className={styles.span}>(via ChatGPT)</span>
+            Bringing you closer to dagrons...
+            <span className={styles.span}>(via Dargon/ChatGPT)</span>
           </h2>
           <p>
-            Ask us a question, we'll secretly pass it on to ChatGPT and will
-            return the result pretending that we generated it ourselves.
+            We've distilled the essence of <strong>Dargon the Dagron</strong> into our stupendous AI. Never again does your life have to be without dagrons!
           </p>
         </div>
         <img src="\media\images\products\dragon\seb-bro-dagron.png" className={styles.img} alt="Japanese traditional style drawing of a dragon, eagle and snake battle royale" />
@@ -23,8 +22,7 @@ function Home() {
       <section className={styles.cardSection}>
         <div className={styles.card}>
           <p>
-            Post an open-ended question and see some suggestions from our
-            speciality trained AI
+            We know you have questions that only dagrons can answer...
           </p>
           <br />
           <NavLink to="ask" className="ButtonPurple">
@@ -33,8 +31,7 @@ function Home() {
         </div>
         <div className={styles.card}>
           <p>
-            Post an open-ended question and see some suggestions from our
-            speciality trained AI
+            What's the point of a hoarde if you never do anything fun? 
           </p>
           <br />
           <NavLink to="products" className="ButtonInverted">

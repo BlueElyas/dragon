@@ -9,37 +9,34 @@ function PageTitle() {
   if (pathname === "/") {
     return (
       <div className={styles.pageTitle}>
-        <h1>Welcome to the Dargon</h1>
+        <h1>Enter the Dagron-verse</h1>
         <p>
-          Welcome to ask the Dargon, where we answer your questions and sell you
-          lot.
+          Welcome to the ultimate fantasy world where dagrons are real, goddammit!
         </p>
       </div>
     )
   } else if (pathname.includes("about")) {
     return (
       <div className={styles.pageTitle}>
-        <h1>About the Dargon</h1>
-        <p>Who we are, what we do, why we are, where we do</p>
+        <h1>Dancing with Dagrons</h1>
+        <p>About our mythical journey to tame Dargon and create the ultimate Dagron AI.</p>
       </div>
     )
   } else if (pathname === "/ask") {
     return (
       <div className={styles.pageTitle}>
-        <h1>Ask the Dargon</h1>
+        <h1>Dargon the Dagron</h1>
         <p>
-          Post an open-ended question here and see some suggestions from our
-          speciality trained AI...
+          Ever dreamt of conversing with dagrons? Dargon is here to make that dream a reality.
         </p>
       </div>
     )
   } else if (pathname === "/products") {
     return (
       <div className={styles.pageTitle}>
-        <h1>Buy the Dargon</h1>
+        <h1>Gimme Dagrons</h1>
         <p>
-          We need to shift some of this stuff so we can continue to operate,
-          please help us
+          Sometimes talking to a Dagron isn't enough. Check out our VR/AI dagron experiences to REALLY get your kicks.
         </p>
       </div>
     )
