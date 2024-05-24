@@ -21,10 +21,12 @@ function ProductCard({ image, title, desc, stars, price }) {
   return (
     <article className={styles.card}>
       <img src={image} alt="" className={styles.img} />
+      <div className={styles.cardBody}>
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.desc}>{desc}</p>
       <p className={styles.stars}>{setRatingCompiler(stars)}</p>
       <p className={styles.price}>£{price}</p>
+      </div>
     </article>
   )
 }
