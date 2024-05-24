@@ -29,7 +29,7 @@ function QuestionFeature() {
   }
   function handleSubmit(e) {
     e.preventDefault()
-    const queryParams = inputQuestion.split(" ").join("+")
+    const queryParams = inputQuestion.toLowerCase().trim().split(" ").join("+")
     dispatch(setQuestion(queryParams))
     dispatch(fetchResults())
   }
