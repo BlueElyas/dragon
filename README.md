@@ -26,7 +26,7 @@ We feel like everyone should be able to chat to a dagron whenever they want, so 
 
 Big shout out to Seb's brother for providing us with a really cool image!!!
 
-[Here is the link](https://www.instagram.com/jshdavies/?hl=en-gb)
+[Here is the link](https://www.instagram.com/jshdavies/?hl=en-gb
 
 Here is the image:
 
@@ -40,77 +40,88 @@ Here is the image:
 
 <details>
 <summary>Day 1</summary>
-  - We spent the whole day planning our approach, tools, workflow, design and schedule
-  - We decided on a mobile-first approach with regards to development
-  - Git and Github were set up with rules protecting the main branch
-  - We went through the brief developing tasks and prioritising specific parts based on importance 
-  - We openly communicated about our strengths and weakenesses to make sure we were working on things we were comfotable with
-  - Workflow was based on a bespoke task management system using Trello and a traffic light system to base priority 
-  - We decided upon a feedback approach for transparency wherein we did a task and asked for feedback to make sure everyone was on the same page
-  - We decide on an all day call due to the complexity of the brief
-  - We created a file structure that would be used for the rest of the time
-  - Prettier config was set up for consistency amongst codebase structure
-  - package.json was developed to hold all dependencies shared
-  - Netlify was deployed for live debugging
-  - Developed a global CSS that was scaled throughout the project and made design consistent
-  - We discussed the schedule for the next few days to discuss deadlines and priority
-
+<ul>
+  <li>We spent the whole day planning our approach, tools, workflow, design and schedule</li>
+  <li>We decided on a mobile-first approach with regards to development</li>
+  <li>Git and Github were set up with rules protecting the main branch</li>
+  <li>We went through the brief developing tasks and prioritising specific parts based on importance </li>
+  <li>We openly communicated about our strengths and weakenesses to make sure we were working on things we were comfotable with</li>
+  <li>Workflow was based on a bespoke task management system using Trello and a traffic light system to base priority</li>
+  <li>We decided upon a feedback approach for transparency wherein we did a task and asked for feedback to make sure everyone was on the same page</li>
+  <li>We decide on an all day call due to the complexity of the brief</li>
+  <li>We created a file structure that would be used for the rest of the time</li>
+  <li>Prettier config was set up for consistency amongst codebase structure</li>
+  <li>package.json was developed to hold all dependencies shared</li>
+  <li>Netlify was deployed for live debugging</li>
+  <li>Developed a global CSS that was scaled throughout the project and made design consistent</li>
+  <li>We discussed the schedule for the next few days to discuss deadlines and priority</li>
+</ul>
 </details>
 
 <details>
 <summary>Day 2</summary>
- - This was the first day where we developed our daily structure for the next couple of days. It would be individual programming in the morning, a lunch break and then group coding in the afternoon.
- - We worked on routing using react-router
- - Header was developed with navigation and logo following brief design
- - Ask page design was developed
- - We created a state management using redux toolkit developing a slice of state and a store with actions and reducers
- - Created an AsyncThunk to connect to chatGPT API for queries
- - Used data from RESTful API to render result cards based on query 
+<ul>
+  <li>This was the first day where we developed our daily structure for the next couple of days. It would be individual programming in the morning, a lunch break and then group coding in the afternoon.</li>
+  <li>We worked on routing using react-router</li>
+  <li>Git and Github were set up with rules protecting the main branch</li>
+  <li>Header was developed with navigation and logo following brief design </li>
+  <li>We openly communicated about our strengths and weakenesses to make sure we were working on things we were comfotable with</li>
+  <li>Ask page design was developed</li>
+  <li>We created a state management using redux toolkit developing a slice of state and a store with actions and reducers</li>
+  <li>Created an AsyncThunk to connect to chatGPT API for queries</li>
+  <li>Used data from RESTful API to render result cards based on query </li>
+</ul>
 </details>
 
 <details>
 <summary>Day 3</summary>
- - Individual programming in the morning was based on page-building
- - A big focus on JSX, component, CSS and design with page development
- - Home page and About page development
- - In the afternoon, we developed a file system for the products page
- - Focused on developing design for products page basing tasks on priority, functionality and   accessability
- - Afterwards we did individual programming based on prefernce and urgence
- - Products data was developed and connected to RESTful API
- - Products page developed with form containing input and button.
- - Product cards were developed to render products.
- - Header was changed to show animated scales to make it more specific to the dragon theme
+<ul>
+  <li>Individual programming in the morning was based on page-building</li>
+  <li>A big focus on JSX, component, CSS and design with page development</li>
+  <li>Home page and About page development</li>
+  <li>In the afternoon, we developed a file system for the products page</li>
+  <li>Focused on developing design for products page basing tasks on priority, functionality and accessability</li>
+  <li>Afterwards we did individual programming based on prefernce and urgence</li>
+  <li>Products data was developed and connected to RESTful API</li>
+  <li>Products page developed with form containing input and button.</li>
+    <li>Product cards were developed to render products.</li>
+  <li>Header was changed to show animated scales to make it more specific to the dragon theme</li>
+</ul>
 </details>
 
 <details>
 <summary>Day 4</summary>
-  - We took a different approach today completely where all day would be group programming
-  - We focused on adding to our scalable redux store for the products
-  - Products slice was developed together and connected to RESTful API to render appropriate data
-  - We fixed filtering using the form and the products slice.
-  - Throughout our afternoon we undertook quality assurance by going through the website, codebase and creating tasks based on what would enhance the website. 
-  - Fixed header, footer, maintcontent components
-  - Styling for homepage, askpage and aboutpage
-  - Changed font-family for headers and body text
-  - Improved funcionality of form in the askpage by disabling ask button if requirements are violated
-  - Fixed navigation on homepage
-  - About page tabs fixed 
-  - Responsivenses in home page, askpage and aboutpage all fixed
-  - Fixed visibility of text in header and menu
-  - Refactored code by removing element styles
-  - Created a resetState reducer to re-render cards in askpage
-  - Added a metadescription to the index.html
+<ul>
+  <li>We took a different approach today completely where all day would be group programming</li>
+  <li>We focused on adding to our scalable redux store for the products</li>
+  <li>Products slice was developed together and connected to RESTful API to render appropriate data</li>
+  <li>We fixed filtering using the form and the products slice.</li>
+  <li>Throughout our afternoon we undertook quality assurance by going through the website, codebase and creating tasks based on what would enhance the website. </li>
+  <li>Fixed header, footer, maintcontent components</li>
+  <li>Styling for homepage, askpage and aboutpage</li>
+  <li>Changed font-family for headers and body text</li>
+  <li>Improved funcionality of form in the askpage by disabling ask button if requirements are violated</li>
+  <li>Fixed navigation on homepage</li>
+  <li>About page tabs fixed </li>
+  <li>Responsivenses in home page, askpage and aboutpage all fixed</li>
+  <li>Fixed visibility of text in header and menu</li>
+  <li>Refactored code by removing element styles</li>
+  <li>Created a resetState reducer to re-render cards in askpage</li>
+  <li>Added a metadescription to the index.html</li>
+</ul>
 </details>
 
 <details>
 <summary>Day 5</summary>
-  - We continued our quality assurance in the morning with a focus on accessibility, the prdoucts page, product card and refacotring
-  - We updated design for the products page and products fornn and made it according to the brief
-  - Siteheader element css was removed styles were updated
-  - Homepage changed image and spacing
-  - Index.css updated buttons globally
-  - Product card design were fixed to give a 3d view
-  - Fixed askpage rendeering when navigating away by implementing a useffect to handle side effects
+<ul>
+  <li>We continued our quality assurance in the morning with a focus on accessibility, the prdoucts page, product card and refacotring</li>
+  <li>We updated design for the products page and products fornn and made it according to the brief</li>
+  <li>Siteheader element css was removed styles were updated</li>
+  <li>Homepage changed image and spacing</li>
+  <li>Index.css updated buttons globally</li>
+  <li>Product card design were fixed to give a 3d view</li>
+  <li>Fixed askpage rendeering when navigating away by implementing a useffect to handle side effects</li>
+</ul>
 </details>
 
 ## Contributors
