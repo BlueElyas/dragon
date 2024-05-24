@@ -26,7 +26,7 @@ We feel like everyone should be able to chat to a dagron whenever they want, so 
 
 Big shout out to Seb's brother for providing us with a really cool image!!!
 
-(Here is the link)[https://www.instagram.com/jshdavies/?hl=en-gb]
+[Here is the link](https://www.instagram.com/jshdavies/?hl=en-gb)
 
 Here is the image:
 
