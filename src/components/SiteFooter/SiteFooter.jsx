@@ -1,8 +1,6 @@
 import styles from "./SiteFooter.module.css"
 
 function SiteFooter() {
-
-    
   return (
     <div className={styles.footerWrapper}>
       <div className={styles.footerLeft}>
@@ -11,7 +9,10 @@ function SiteFooter() {
         <span>Cookies</span>
       </div>
       <div className={styles.footerRight}>
-        <span> &#169; 2024 </span>
+        <span>
+          {" "}
+          &#169; 2024 <em>Year of the Dagron</em>
+        </span>
       </div>
     </div>
   )
