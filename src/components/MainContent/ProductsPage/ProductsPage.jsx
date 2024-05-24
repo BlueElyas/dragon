@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import styles from "./Products.module.css"
+import styles from "./ProductsPage.module.css"
 import ProductCard from "./ProductCard/ProductCard"
 import ProductsSearch from "./ProductsSearch/ProductsSearch"
 import { fetchExperiences } from "./productsSlice"
