@@ -27,7 +27,7 @@ function ProductsSearch({ input, setInput }) {
           onChange={handleChange}
           className={styles.input}
         />
-        <button className="ButtonPurple">Click me!</button>
+        <button className="ButtonPurple">Search the Lair</button>
       </form>
     </>
   )
